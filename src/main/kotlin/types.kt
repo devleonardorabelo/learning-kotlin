@@ -1,3 +1,8 @@
+fun main() {
+    var result = decrease()
+    println(result)
+}
+
 var byte: Byte = 1 // 1 byte
 var short: Short = 1 // 2 bytes
 var int: Int = 1 // 4 bytes
@@ -15,6 +20,8 @@ fun add(x: Int, y: Int): Unit {
     println(total)
 }
 
-fun decrease(x: Int = 2, y: Int = 1): Int {
-    return x - y
-}
+//fun decrease(x: Int = 2, y: Int = 1): Int {
+//    return x - y
+//}
+
+fun decrease(x: Int = 2, y: Int = 1): Int = x - y
